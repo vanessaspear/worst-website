@@ -1,1 +1,9 @@
-/* test commit */ 
+/* hazel's styles for website cursor and diya's styles for html tags */ 
+
+/* annoying gif as the background of our website; should appear as tiles on the webpage */ 
+
+.body {
+
+    background-image:url("https://media.giphy.com/media/DC5oHrqkj0REJFhc7m/giphy.gif"); 
+
+}
