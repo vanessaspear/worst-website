@@ -8,6 +8,7 @@ import { saveUser } from "./dataAccess.js"
 
 export const userForm = () => {
     return `
+    <div id="login-box">
     <div class="createUser">
         <label for="username">Username</label>
         <input type="text" name="username">
@@ -17,6 +18,7 @@ export const userForm = () => {
         <input type="text" name="password">
     </div>
     <button id="submitButton">Create Login</button>
+    <div>
     `
 }
 
