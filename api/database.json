@@ -1,3 +1,30 @@
 {
-    "users": []
+  "users": [
+    {
+      "username": "billybob",
+      "password": "abc123",
+      "id": 1
+    },
+    {
+      "username": "MinnieMouse",
+      "password": "MickeyMouse",
+      "id": 2
+    },
+    {
+      "id": 3
+    },
+    {
+      "id": 4
+    },
+    {
+      "username": "marsbound",
+      "password": "Spaceisreallyreallyfun!",
+      "id": 5
+    },
+    {
+      "username": "marsbound",
+      "password": "Spaceisreallyreallyfun!",
+      "id": 6
+    }
+  ]
 }
