@@ -15,7 +15,7 @@ export const getUsers = (newUser) => {
     return applicationState.users.map(user => ({...user}))
 }
 
-export const sendUser = () => {
+export const saveUser = (newUser) => {
     const fetchOptions = {
         method: "POST",
         headers: {
