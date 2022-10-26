@@ -2,9 +2,15 @@
 
 /* annoying gif as the background of our website; should appear as tiles on the webpage */ 
 
-.body {
+@import "form.css"; 
 
-    background-image:url("https://media.giphy.com/media/DC5oHrqkj0REJFhc7m/giphy.gif"); 
+body {
+
+    background-image: url("src/pictures/space travel.webp"); 
+    background: cover; 
+
+    /* width: 
+    height:  */
 
 }
-@import "form.css"
+
