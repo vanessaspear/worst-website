@@ -38,7 +38,7 @@ document.addEventListener("click", e => {
             saveUser(dataToSendToAPI)
 
         } else {
-            document.querySelector("#container").dispatchEvent(new CustomEvent("passwordRequirementsNotMet"))
+            document.querySelector(".login__form").dispatchEvent(new CustomEvent("passwordRequirementsNotMet"))
         }
     }
 })
