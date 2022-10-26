@@ -1,15 +1,41 @@
 {
-    "users": [],
-    "bookedTrips": [],
-    "destinations":[
-        {
-            "id": 1,
-            "name": "Olympus Mons"
-        },
-        {
-            "id": 2,
-            "name": "Cerberus Plains"
-        }
-    ]
-
+  "bookedTrips": [],
+  "destinations": [
+    {
+      "id": 1,
+      "name": "Olympus Mons"
+    },
+    {
+      "id": 2,
+      "name": "Cerberus Plains"
+    }
+  ],
+  "users": [
+    {
+      "username": "billybob",
+      "password": "abc123",
+      "id": 1
+    },
+    {
+      "username": "MinnieMouse",
+      "password": "MickeyMouse",
+      "id": 2
+    },
+    {
+      "id": 3
+    },
+    {
+      "id": 4
+    },
+    {
+      "username": "marsbound",
+      "password": "Spaceisreallyreallyfun!",
+      "id": 5
+    },
+    {
+      "username": "marsbound",
+      "password": "Spaceisreallyreallyfun!",
+      "id": 6
+    }
+  ]
 }
