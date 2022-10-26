@@ -1,4 +1,15 @@
 {
+  "bookedTrips": [],
+  "destinations": [
+    {
+      "id": 1,
+      "name": "Olympus Mons"
+    },
+    {
+      "id": 2,
+      "name": "Cerberus Plains"
+    }
+  ],
   "users": [
     {
       "username": "billybob",
