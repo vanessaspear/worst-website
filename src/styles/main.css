@@ -1,1 +1,9 @@
 @import "form.css"
+
+html {
+    cursor:url('../pictures/newcursor.png'),auto;
+}
+
+html {
+    cursor: url('../pictures/newcursor.png'), auto;
+}
