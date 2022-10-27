@@ -1,1 +1,65 @@
-@import "form.css"
+/* hazel's styles for website cursor and diya's styles for html tags */ 
+
+/* the import code to make the styling on john's form work */ 
+
+@import "form.css"; 
+
+
+/* annoying gif as the background of our website; should be tiled on the webpage and make things unreadable*/ 
+
+body {
+    
+    background-image: url("https://media.giphy.com/media/SwJ7tp8rs0lxRLEQ4c/giphy-downsized.gif"); 
+
+}
+
+/* this makes john's form smaller and moves it to the middle */ 
+
+.flights {
+
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 400px;
+
+    padding: 40px; 
+
+}
+
+/* this makes vanessa's login fields centered but closer to the bottom on the right under the form, so it's harder for people to find initially */ 
+
+.login {
+
+    /* float: right;  */
+
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 400px;
+
+    padding: 50px; 
+    text-align: center; 
+
+}
+
+/* gives the website name a color and shadow and makes it look cramps and */ 
+
+
+h4 {
+
+    /* width: 100px;  */
+    /* overflow-wrap: break-word;  */
+
+    font-size: 27px; 
+    text-align: center; 
+    color: white; 
+    text-shadow: 0px 0px 1px #AB02F7;
+}
+
+/* gives the "hidden" mesasge under the website title a color and shadow */ 
+/* may also affect some of vanessa's text for the login form? */ 
+
+p {
+    color: #4D00A7; 
+    text-shadow: 0px 0px 1px black; 
+}
