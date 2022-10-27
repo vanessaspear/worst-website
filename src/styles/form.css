@@ -1,5 +1,82 @@
-fieldset{
-	display: flex;
-	flex-direction: column;
+.input{
+	border-radius: 400%;
+	border-top-left-radius: 0%;
+	border-bottom-left-radius: 0%;
 }
 
+fieldset {
+	display: flex;
+	flex-direction: column;
+	border-radius: 400%;
+	border-top-left-radius: 0%;
+	border-bottom-left-radius: 0%;
+	/* }
+.input{ */
+	background: linear-gradient(hotpink,
+			chartreuse,
+			orange,
+			hotpink);
+	animation: spin 1.5s infinite ease-in-out;
+}
+
+@keyframes spin {
+
+	/* 100%{ transform: rotate(360deg);} */
+	/* 50%{ transform: rotate(180deg) translateX(50%);} */
+	/* 0%{ transform: rotate(0deg); } */
+	99% {
+		transform: translateX(0);
+		background: linear-gradient(hotpink,
+				chartreuse,
+				orange,
+				hotpink);
+	}
+
+	91% {
+		transform: rotate(-.5deg);
+		background: linear-gradient(orange,
+				hotpink,
+				hotpink,
+				chartreuse);
+	}
+
+	83% {
+		transform: rotate(.5deg);
+		background: linear-gradient(orange,
+				hotpink,
+				hotpink,
+				chartreuse);
+	}
+
+	75% {
+		transform: translateX(0);
+		background: linear-gradient(orange,
+				hotpink,
+				hotpink,
+				chartreuse);
+	}
+
+	50% {
+		transform: translateX(-15px);
+		background: linear-gradient(hotpink,
+				hotpink,
+				chartreuse,
+				orange);
+	}
+
+	25% {
+		transform: translateX(15px);
+		background: linear-gradient(hotpink,
+				chartreuse,
+				orange,
+				hotpink);
+	}
+
+	0% {
+		transform: translateX(0);
+		background-color: linear-gradient(chartreuse,
+				orange,
+				hotpink,
+				hotpink);
+	}
+}
