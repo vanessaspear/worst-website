@@ -1,9 +1,19 @@
-@import "form.css"
+/* hazel's styles for website cursor and diya's styles for html tags */ 
 
-html {
-    cursor:url('../pictures/newcursor.png'),auto;
+/* annoying gif as the background of our website; should appear as tiles on the webpage */ 
+
+@import "form.css"; 
+
+body {
+
+    background-image: url("src/pictures/space travel.webp"); 
+    background: cover; 
+
+    /* width: 
+    height:  */
+
 }
 
-html {
-    cursor: url('../pictures/newcursor.png'), auto;
+html{
+    cursor: url(../pictures/newcursor.png), auto;
 }
