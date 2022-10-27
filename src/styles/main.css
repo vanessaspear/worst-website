@@ -13,11 +13,10 @@ body {
 
 }
 
-<<<<<<< HEAD
 html{
     cursor: url(../pictures/newcursor.png), auto;
 }
-=======
+
 /* this makes john's form smaller and moves it to the middle */ 
 
 .flights {
@@ -68,4 +67,3 @@ p {
     color: #4D00A7; 
     text-shadow: 0px 0px 1px black; 
 }
->>>>>>> 2247117da3faa94e10a43f8a9c5460e1558e8232
