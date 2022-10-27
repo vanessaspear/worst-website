@@ -10,7 +10,7 @@
 body {
     
     background-image: url("https://media.giphy.com/media/SwJ7tp8rs0lxRLEQ4c/giphy-downsized.gif"); 
-
+    cursor: url(../pictures/newcursor.png), auto;
 }
 
 /* this makes john's form smaller and moves it to the middle */ 
