@@ -24,3 +24,9 @@ const render = () => {
  document.querySelector(".login__form").addEventListener("passwordRequirementsNotMet", customEvent => {
     document.querySelector(".login__form").innerHTML = passwordRequirements()
  })
+
+ import { iconBar } from "./socialNavBar.js";
+
+ const iconBarContainer = document.querySelector(".nav_bar")
+
+ iconBarContainer.innerHTML = iconBar()

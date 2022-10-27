@@ -17,7 +17,7 @@ export const userForm = () => {
         <label for="password">Password</label>
         <input type="text" name="password">
     </div>
-    <button id="submitButton">Create Login</button>
+    <button id="submitButton">Create an Account</button>
     <div>
     `
 }
@@ -52,7 +52,7 @@ export const passwordRequirements = () => {
         <li>Includes the word "Space"</li>
         <li>Includes an exclamation point</li>
         </ul>
-        <p>Please refresh the page and try again.</p>
+        <p class="createUser">Please refresh the page and try again.</p>
     </div>       
     `
 }
