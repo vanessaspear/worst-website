@@ -26,11 +26,11 @@ body {
 
 }
 
-/* this makes vanessa's login fields centered but closer to the bottom on the right under the form, so it's harder for people to find initially */ 
+/* this makes vanessa's login fields centered near the bottom, so it's harder for people to find initially */ 
 
 .login {
 
-    /* float: right;  */
+    /* float: right;  */ /* if we want it to go to the right */ 
 
     display: block; 
     margin-left: auto; 
@@ -42,11 +42,12 @@ body {
 
 }
 
-/* gives the website name a color and shadow and makes it look cramps and */ 
+/* gives the website name a color and shadow */ 
 
 
 h4 {
 
+    /* if we want the website name to be cramped in a small space */ 
     /* width: 100px;  */
     /* overflow-wrap: break-word;  */
 
