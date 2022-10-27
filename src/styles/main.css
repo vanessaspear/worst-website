@@ -10,10 +10,6 @@
 body {
     
     background-image: url("https://media.giphy.com/media/SwJ7tp8rs0lxRLEQ4c/giphy-downsized.gif"); 
-
-}
-
-html{
     cursor: url(../pictures/newcursor.png), auto;
 }
 

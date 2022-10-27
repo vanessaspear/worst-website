@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import * as form from "./FormBox.js"
 
 const formContainer = document.querySelector(".flights__list")
@@ -25,6 +24,3 @@ const render = () => {
  document.querySelector(".login__form").addEventListener("passwordRequirementsNotMet", customEvent => {
     document.querySelector(".login__form").innerHTML = passwordRequirements()
  })
-=======
-//tfrutdythg
->>>>>>> 5678400950a964b9985dbab132f763f2b29f345a
