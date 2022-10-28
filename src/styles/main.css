@@ -3,6 +3,7 @@
 /* the import code to make the styling on john's form work */ 
 
 @import "form.css";
+@import "ads.css";
 
 
 /* annoying gif as the background of our website; should be tiled on the webpage and make things unreadable*/ 
@@ -103,10 +104,22 @@ p {
 .ad_content {
     height: 720px;
     width: 250px; 
-    border: 3px solid red; 
+    align-items: center;
+    text-decoration: none;
+    background-color: #000;
 }
+
+.ad_2_content {
+    height: 720px;
+    width: 250px; 
+    align-items: center;
+    background-color: #000;
+    padding: 20px;
+}
+
 
 .ad_flight {
     display: flex;
     flex-wrap: nowrap;
+    justify-content: space-around;
 }

@@ -31,8 +31,15 @@ const render = () => {
 
  iconBarContainer.innerHTML = iconBar()
 
- import { advertisement } from "./adOne.js";
+ import { adOne } from "./adOne.js";
 
  const adContainer = document.querySelector(".ad_content")
 
- adContainer.innerHTML = advertisement()
+ adContainer.innerHTML = adOne()
+
+ import { adTwo } from "./adTwo.js";
+
+ const adTwoContainer = document.querySelector(".ad_2_content")
+
+ adTwoContainer.innerHTML = adTwo()
+
