@@ -30,3 +30,9 @@ const render = () => {
  const iconBarContainer = document.querySelector(".nav_bar")
 
  iconBarContainer.innerHTML = iconBar()
+
+ import { advertisement } from "./adOne.js";
+
+ const adContainer = document.querySelector(".ad_content")
+
+ adContainer.innerHTML = advertisement()
