@@ -2,7 +2,7 @@
 
 /* the import code to make the styling on john's form work */ 
 
-@import "form.css"; 
+@import "form.css";
 
 
 /* annoying gif as the background of our website; should be tiled on the webpage and make things unreadable*/ 
@@ -17,11 +17,10 @@ body {
 
 .flights {
 
-    display: block; 
+    /*display: block; 
     margin-left: auto; 
-    margin-right: auto; 
+    margin-right: auto; */
     width: 400px;
-
     padding: 40px; 
 
 }
@@ -99,4 +98,15 @@ p {
 .createUser {
     color: white;
     text-shadow: 1px 1px 5px gray;
+}
+
+.ad_content {
+    height: 720px;
+    width: 250px; 
+    border: 3px solid red; 
+}
+
+.ad_flight {
+    display: flex;
+    flex-wrap: nowrap;
 }
